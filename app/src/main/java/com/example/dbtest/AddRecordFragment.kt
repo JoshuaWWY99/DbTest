@@ -40,6 +40,7 @@ class AddRecordFragment : Fragment() {
                 Toast.makeText(context, "Record added", Toast.LENGTH_LONG).show()
 
             }catch (ex:Exception){
+                
                 Toast.makeText(context, ex.message, Toast.LENGTH_LONG).show()
             }
 
